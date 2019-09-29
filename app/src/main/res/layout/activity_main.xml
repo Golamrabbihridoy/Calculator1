@@ -61,7 +61,7 @@
                 android:text="^"/>
 
             <Button
-                android:id="@+id/tvPlus"
+                android:id="@+id/btPlus"
                 style="@style/ActionButtonStyle"
                 android:text="+" />
 
@@ -75,22 +75,22 @@
 
 
             <Button
-                android:id="@+id/tvFour"
+                android:id="@+id/btFour"
                 style="@style/NumberButtonStyle"
                 android:text="4" />
 
             <Button
-                android:id="@+id/tvFive"
+                android:id="@+id/btFive"
                 style="@style/NumberButtonStyle"
                 android:text="5" />
 
             <Button
-                android:id="@+id/tvSix"
+                android:id="@+id/btSix"
                 style="@style/NumberButtonStyle"
                 android:text="6" />
 
             <Button
-                android:id="@+id/tvMul"
+                android:id="@+id/btMul"
                 style="@style/ActionButtonStyle"
                 android:text="*" />
 
@@ -104,22 +104,22 @@
 
 
             <Button
-                android:id="@+id/tvOne"
+                android:id="@+id/btOne"
                 style="@style/NumberButtonStyle"
                 android:text="1" />
 
             <Button
-                android:id="@+id/tvTwo"
+                android:id="@+id/btTwo"
                 style="@style/NumberButtonStyle"
                 android:text="2" />
 
             <Button
-                android:id="@+id/tvThree"
+                android:id="@+id/btThree"
                 style="@style/NumberButtonStyle"
                 android:text="3" />
 
             <Button
-                android:id="@+id/tvDivide"
+                android:id="@+id/btDivide"
                 style="@style/ActionButtonStyle"
                 android:text="/" />
 
@@ -132,17 +132,17 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/tvDot"
+                android:id="@+id/btDot"
                 style="@style/NumberButtonStyle"
                 android:text="." />
 
             <Button
-                android:id="@+id/tvZero"
+                android:id="@+id/btZero"
                 style="@style/NumberButtonStyle"
                 android:text="0" />
 
             <Button
-                android:id="@+id/tvEquals"
+                android:id="@+id/btEquals"
                 style="@style/EualButtonStyle"
                 android:scaleType="center"
                 android:text="=" />
