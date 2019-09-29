@@ -39,9 +39,121 @@
             android:src="@drawable/delete"
             android:background="@color/parple"
             />
-       
-    </LinearLayout>
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/butonClear"
+                style="@style/ActionButtonStyle"
+                android:text="C" />
+            <Button
+                android:id="@+id/btRoot"
+                style="@style/ActionButtonStyle"
+                android:text="√"/>
+            <Button
+                android:id="@+id/btPower"
+                style="@style/ActionButtonStyle"
+                android:text="^"/>
+
+            <Button
+                android:id="@+id/tvPlus"
+                style="@style/ActionButtonStyle"
+                android:text="+" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/tvFour"
+                style="@style/NumberButtonStyle"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/tvFive"
+                style="@style/NumberButtonStyle"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/tvSix"
+                style="@style/NumberButtonStyle"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/tvMul"
+                style="@style/ActionButtonStyle"
+                android:text="*" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/tvOne"
+                style="@style/NumberButtonStyle"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/tvTwo"
+                style="@style/NumberButtonStyle"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/tvThree"
+                style="@style/NumberButtonStyle"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/tvDivide"
+                style="@style/ActionButtonStyle"
+                android:text="/" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tvDot"
+                style="@style/NumberButtonStyle"
+                android:text="." />
+
+            <Button
+                android:id="@+id/tvZero"
+                style="@style/NumberButtonStyle"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/tvEquals"
+                style="@style/EualButtonStyle"
+                android:scaleType="center"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/btMod"
+                style="@style/ActionButtonStyle"
+                android:text="%" />
+
+        </LinearLayout>
+
+        ></LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
